@@ -1,9 +1,13 @@
 # require modules here
 require "pry"
-require "emoticons.yml"
+require "yaml"
 
 def load_library (array)
-  emoticons = 
+  emoticons = yaml.load_file(array)
+  emoticon_hash = hash.new 
+
+  emoticon_hash["get_emoticon"] = hash.new 
+  emoticon_hash["get_meaning"] = hash.new 
   # code goes here
   
 end
