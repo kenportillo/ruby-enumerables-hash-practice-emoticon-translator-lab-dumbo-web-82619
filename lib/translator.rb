@@ -2,7 +2,8 @@
 require "pry"
 require "yaml"
 
-def load_library
+def load_library (array)
+  emoticons = 
   # code goes here
   
 end
